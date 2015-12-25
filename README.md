@@ -7,7 +7,7 @@ this module maybe rely on [BeautifulSup](http://www.crummy.com/software/Beautifu
 	git clone https://github.com/peta345/unipy.git  
 
 Then, you add a 'unipy.py' directory  
-
+unip.pyのURL=""には~Com00505AのURLをいれてください
 ## Example
 
 ```
