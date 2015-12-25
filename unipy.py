@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import mechanicalsoup
-import datetime
-URL = 'https://portal.sa.dendai.ac.jp/up/faces/login/Com00505A.jsp'
-A_URL = 'https://portal.sa.dendai.ac.jp/up/faces/up/po/Poa00601A.jsp'
+import time
+URL = 'daigaku url'
 
 
 def login(username, password):

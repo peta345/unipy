@@ -8,4 +8,20 @@ this module maybe rely on [BeautifulSup](http://www.crummy.com/software/Beautifu
 
 Then, you add a 'unipy.py' directory  
 
+## Example
+
+```
+#module import
+import unipy.py
+
+#login
+url = unipy.login('your id', 'your password')
+
+#Return Timetable as List
+table = unipy.get_time_table(url)
+
+#Return News as List
+news = unipy.get_news(url)
+```
+
 
