@@ -1,6 +1,6 @@
 # unipy
 This is Python3 module to parse of daigaku-unipa.  
-this module maybe rely on [BeautifulSup](http://www.crummy.com/software/BeautifulSoup/) and [MechanicalSoup](https://github.com/hickford/MechanicalSoup), so you have to install these modules. 
+this module maybe rely on [BeautifulSup](http://www.crummy.com/software/BeautifulSoup/) and [MechanicalSoup](https://github.com/hickford/MechanicalSoup), so you have to install these modules.
 
 ## Installation
 
@@ -22,6 +22,7 @@ table = unipy.get_time_table(url)
 
 #Return News as List
 news = unipy.get_news(url)
+
+#Return today timetables
+table = unipy.get_time_table_today(url)
 ```
-
-

@@ -29,3 +29,9 @@ def get_news(page2):
             news.append(tag2.text)
     news = list(filter(lambda s:s !='' and s != '\xa0', news))
     return news
+
+def get_time_table_today(page2):
+    table = []
+    for tag in page2.soup.findAll("td", {"class" : "colPad"})[0].children:
+        table.append(tag.text)
+    return table
